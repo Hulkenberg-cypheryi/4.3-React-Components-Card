@@ -5,7 +5,7 @@ function AboutMeCard() {
     const emoji = "♟️";
   
     return (
-      <div className="card">
+      <div className="bg-blue-100 p-6 rounded-xl">
         <span style={{ fontSize: "48px" }}>{emoji}</span>
         <h3>{name}</h3>
         <p>{bio}</p>
