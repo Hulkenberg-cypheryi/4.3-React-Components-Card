@@ -2,7 +2,7 @@ function AboutMeCard() {
     const name = "Nathan B";
     const bio = "I am a student learning React";
     const funFact = "I can solve a Rubik's cube in under 10 minutes!";
-    const emoji = "🎮";
+    const emoji = "♟️";
   
     return (
       <div className="card">
