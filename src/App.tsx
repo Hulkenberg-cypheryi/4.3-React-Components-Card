@@ -10,8 +10,30 @@ function App() {
       <Header />
       <main>
         <h2>Welcome to my website!</h2>
+
         <Food />
-        <AboutMeCard />
+
+        <AboutMeCard
+            name="Nathan the gamer"
+            bio="I love gaming"
+            funFact="Favorite games genre is Adventure"
+            emoji="🔥"
+          />
+
+        <AboutMeCard
+          name="Nathan the Chess Player"
+          bio="I enjoy learning chess strategies"
+          funFact="My favorite piece is the knight"
+          emoji="♞"
+        />
+
+        <AboutMeCard
+          name="Nathan the Developer"
+          bio="I like building websites and learning React"
+          funFact="This is my first React props project"
+          emoji="💻"
+        />
+
         <InterestCard />
       </main>
       <Footer />
